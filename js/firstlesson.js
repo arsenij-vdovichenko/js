@@ -67,3 +67,31 @@
 // const nameGoods = "«MacBook Pro 13″»"
 // let priceGoods = 10000;
 // console.log("обранно" + nameGoods + "ціна за штуку" + priceGoods + "кредитів");
+
+
+
+console.log(wath.min(2,5,7,8,9));
+//Знаходження найменшого числа
+3
+console.log(Math.max (5,12,43,200,54,11.));
+//Знаходження найбільшого числа
+console.log();
+const number = 20
+const power = 8
+const result = Math.pow (number,power)
+console.log(result);
+
+// піднесення до степення
+console.log(Math.floor (12.7));
+//Заокруглення в меншу сторону
+console.Jog(Math.ceil(47.1));
+//Заокруглення в більшу сторону
+console.log(Math.round(55.3));
+console. log(Math.round(54.49))
+//Заокруглення ях в математике
+const num = 15
+
+const sqrt = Math.sqrt(number)
+
+constRound.number 
+console.log(sqrt);
