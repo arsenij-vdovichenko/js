@@ -36,3 +36,21 @@ const floatString = "45.67";
 const parsedFloat = parseFloat(floatString);
 console.log(`Рядок: "${floatString}"`);
 console.log(`Перетворене число: ${parsedFloat}`);
+
+//Створити змінну const intString = "123" для зберігання рядка, який містить ціле число. Використати метод parseInt() для перетворення рядка у ціле число. Результат зберегти в змінній parsedIntта вивести результат в консоль.
+const intString = "675"
+const parsedInt = parseInt(intString);
+console.log(parsedInt); 
+
+//Створити змінну number для зберігання числа. Використати метод Math.sqrt() для обчислення квадратного кореня числа. Результат зберегти в змінній sqrtNumber та вивести результат в консоль.
+const number = 115;
+const sqrtNumber = Math.sqrt(number);
+console.log(sqrtNumber); 
+
+//Створити змінні const integer = 42 та const stringNumber = "256" для зберігання цілочисельного значення та рядка з числом у вигляді рядка. Використати метод parseInt() для перетворення рядка у ціле число. Результат зберегти в змінній convertedInt та вивести результат в консоль. Потім використати метод toString() для перетворення цілочисельного значення у рядок. Результат зберегти в змінній convertedString та вивести результат в консоль.
+const integer = 42;
+const stringNumber = "256"; 
+const convertedInt = parseInt(stringNumber);
+console.log(convertedInt);
+const convertedString = integer.toString(); 
+console.log(convertedString);
