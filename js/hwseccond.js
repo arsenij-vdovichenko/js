@@ -23,13 +23,13 @@ console.log(`Рівень енергії: ${energy}`);
 let totalPrice = 500;
 let discount = 10; 
 let discountedPrice = totalPrice * (discount);
-console.log(`Сума покупки зі знижкою: ${discountedPrice} грн`);
+console.log("Сума покупки зі знижкою" + discountedPrice );
 
 //Створити змінну const floatNumber = 12.78 для зберігання числа з плаваючою комою. Використати метод Math.floor() для округлення числа до меншого. Результат зберегти в змінній roundedDown та вивести результат в консоль.
 const floatNumber = 12.78;
 const roundedDown = Math.floor(floatNumber); 
-console.log(`Початкове число: ${floatNumber}`);
-console.log(`Округлене вниз: ${roundedDown}`);
+console.log("перетворене число" + roundedDown);
+
 
 //Створити змінну const floatString = "45.67"  для зберігання рядка, який містить числа з плаваючою комою. Використати метод parseFloat() для перетворення рядка у десяткове число. Результат зберегти в змінній parsedFloat та вивести результат в консоль.
 const floatString = "45.67";
@@ -38,12 +38,12 @@ console.log(`Рядок: "${floatString}"`);
 console.log(`Перетворене число: ${parsedFloat}`);
 
 //Створити змінну const intString = "123" для зберігання рядка, який містить ціле число. Використати метод parseInt() для перетворення рядка у ціле число. Результат зберегти в змінній parsedIntта вивести результат в консоль.
-const intString = "675"
+const intString = "123"
 const parsedInt = parseInt(intString);
 console.log(parsedInt); 
 
 //Створити змінну number для зберігання числа. Використати метод Math.sqrt() для обчислення квадратного кореня числа. Результат зберегти в змінній sqrtNumber та вивести результат в консоль.
-const number = 115;
+const number = 25;
 const sqrtNumber = Math.sqrt(number);
 console.log(sqrtNumber); 
 
