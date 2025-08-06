@@ -1,5 +1,5 @@
 //Створіть змінну, що симулює вибір варіанта зі списку. Виводьте повідомлення залежно від обраного варіанта: "Кава", "Чай" або "Сік". Використайте switch
-let drink = ""; 
+let drink = "Чай"; 
 switch (drink) {
   case "Кава":
     console.log("Ви обрали Каву");
@@ -15,15 +15,21 @@ switch (drink) {
 }
 
 //Створіть змінну для зберігання введеного рядка, який може бути днем тижня. Якщо це робочий день — виведіть повідомлення про робочий день, якщо вихідний — про вихідний.
-let day = "Вівторок";
-const workingDays = ["Понеділок", "Вівторок", "Середа", "Четвер", "П’ятниця"];
-const weekendDays = ["Субота", "Неділя"];
-if (workingDays.includes(day)) {
-  console.log("Це робочий день");
-} else if (weekendDays.includes(day)) {
-  console.log("Це вихідний");
-} else {
-  console.log("Введено невірний день тижня");
+let day = "Середа";
+switch (day) {
+  case "Понеділок":
+  case "Вівторок":
+  case "Середа":
+  case "Четвер":
+  case "П’ятниця":
+    console.log("Це робочий день");
+    break;
+  case "Субота":
+  case "Неділя":
+    console.log("Це вихідний");
+    break;
+  default:
+    console.log("введено невірний день тижня");
 }
 
 //Створіть змінну для зберігання номера місяця. За номером місяця визначайте пору року і виводьте відповідне повідомлення.
@@ -75,15 +81,15 @@ let result;
 switch (operator) {
   case "+":
     result = num1 + num2;
-    console.log("Результат:", result);
+    console.log("Результат", result);
     break;
   case "-":
     result = num1 - num2;
-    console.log("Результат:", result);
+    console.log("Результат", result);
     break;
   case "*":
     result = num1 * num2;
-    console.log("Результат:", result);
+    console.log("Результат", result);
     break;
   case "/":
     if (num2 === 0) {
