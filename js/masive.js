@@ -101,13 +101,65 @@
         
 // }
 
-const numbers = [12, 47, 5, 88, 63, 29, 94, 31, 56, 72, 6, 18, 40, 67, 81, 25, 90, 14, 38, 53];
-for(let i = 0; i < numbers.length; i += 1){
-    // console.log(numbers[i]);
-    if (numbers[i] % 2 === 1) {
-        console.log(numbers[i] +=1000);
+// const numbers = [12, 47, 5, 88, 63, 29, 94, 31, 56, 72, 6, 18, 40, 67, 81, 25, 90, 14, 38, 53];
+// for(let i = 0; i < numbers.length; i += 1){
+//     // console.log(numbers[i]);
+//     if (numbers[i] % 2 === 1) {
+//         console.log(numbers[i] +=1000);
         
-    }
+//     }
     
     
+// }
+
+
+//Створити масив з трьох чисел. Змінити значення другого елемента масиву на 10.
+let number = [1, 2, 3];
+number[1] = 10;
+console.log(number); 
+
+
+//Створити масив із трьох рядків. Додати до масиву ще одну рядків.
+let words = ["привіт", "goiteens", "колір"];
+words.push("homework");
+console.log(words); 
+
+//Створити скрипт який поверне суму всіх чисел в масиві.
+let numbers = [5, 10, 15, 20];
+let sum = 0;
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i];
+}
+console.log(sum); 
+
+//Створити масив з 5-ти чисел. Вивести на екран всі елементи масиву за допомогою циклу for.
+let num = [1, 5, 6, 10,];
+for (let i = 0; i < num.length; i++) {
+  console.log(num[i]);
+}
+
+//Створити масив із 5-ти рядків. Вивести на екран кожен рядокз масиву, який містить більше 5-ти символів.
+let texts = ["доброго", "день", "школа", "університет", "код"];
+for (let word of texts) {
+  if (word.length > 5) {
+    console.log(word);
+  }
+}
+
+//Створити масив з 10-ти чисел. Знайти та вивести на екран максимальне значення з масиву.
+let numb = [12, 45, 7, 89, 23, 56, 3, 99, 34, 67];
+let maxValue = numb[0];
+for (let i = 1; i < numb.length; i++) {
+  if (numb[i] > maxValue) {
+    maxValue = numb[i];
+  }
+}
+console.log(maxValue);
+
+//Створити масив з 10-ти чисел. Знайти всі парні числа в масиві та вивести їх на екран.
+let numbe = [12, 45, 7, 88, 23, 56, 3, 99, 34, 67];
+for (let i = 0; i < numbe.length; i++) {
+  if (numbe[i] % 2 === 0) {
+    console.log(numbe[i]);
+  }
 }
