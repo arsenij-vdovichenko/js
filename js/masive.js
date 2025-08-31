@@ -163,3 +163,6 @@ for (let i = 0; i < numbe.length; i++) {
     console.log(numbe[i]);
   }
 }
+
+
+
