@@ -125,9 +125,10 @@ function numbersList(array) {
     sum += array[numbers]
   }
   const result = sum / array.length
-  return Math.round(result);
+  
   
 }
+return Math.round(result);
 
 console.log(numbersList([8, 5, 34, 56,]));
 console.log(numbersList([3, 5, 7, 5,]));
@@ -139,8 +140,14 @@ console.log(numbersList([76, 2, 7, 67,]));
 // створи функцію яка буде приймати довідьну кількість параметрів і повертатти загальну суму всіх елементів
 
 function sumNumbers(...arg) {
-  console.log(arg);
   
+  let sum = 0
+  for (let i = 0; i <arg.length, i ++ ){
+    sum += arg[i]
+    
+  }
+  // console.log(arg);
+  return sum
   
 }
 
