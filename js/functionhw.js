@@ -51,8 +51,6 @@ function checkForSpam(message) {
   const lowerCaseMessage = message.toLowerCase(); 
   return lowerCaseMessage.includes('spam') || lowerCaseMessage.includes('sale');
 }
-
-
-console.log(checkForSpam("Get best SALE offers now!"));   
-console.log(checkForSpam("This is a SPAM message"));      
-console.log(checkForSpam("Just a regular text"));
+console.log(checkForSpam("Неймовірний розпродаж SALE тільки сьогодні"));   
+console.log(checkForSpam("Це повідомлення не містить нічого підозрілого"));  
+    
