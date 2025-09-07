@@ -54,3 +54,31 @@ function checkForSpam(message) {
 console.log(checkForSpam("Неймовірний розпродаж SALE тільки сьогодні"));   
 console.log(checkForSpam("Це повідомлення не містить нічого підозрілого"));  
     
+
+
+
+let input;
+const numbers = [];
+
+while (true) {
+  input = prompt("Введіть число!");
+    if (input === null) {
+        alert("Ви нас покинули!");
+    break;
+    } 
+    if (isNaN(input)) {
+        alert("Введіть число!!")
+        continue     
+    }     
+
+    input = Number(input)
+    numbers.push(input)    
+}
+
+if (numbers.length > 0) {
+    let total = 0;
+    for (let i = 0; i < numbers.length; i += 1) {
+        total += numbers[i]
+    }
+    console.log(total);    
+}
