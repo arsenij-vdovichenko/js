@@ -93,10 +93,10 @@
 
 //Напиши функцію countProps(obj), яка рахує кількість властивостей в об'єкті. Функція повертає число — кількість властивостей.
 
-const user = {
-  name: "Alex",
-  age: 25,
-  isAdmin: false
-};
-
-console.log(countProps(user)); 
+function countProps(obj) {
+  let count = 0;
+  for (let key in obj) {
+    count++;
+  }
+  return count;
+}
