@@ -73,22 +73,22 @@
 
 
 
-// const user = {
-//     hobby: "football",
-//     premium: true,
-// }
-// user.mood = 'happy'
-// user.hobby = "skydiving"
-// user.premium = false;
-// console.log(user);
+const user = {
+    hobby: "football",
+    premium: true,
+}
+user.mood = 'happy'
+user.hobby = "skydiving"
+user.premium = false;
+console.log(user);
 
-// const keys = Object.keys(user)
-// console.log(keys);
+const keys = Object.keys(user)
+console.log(keys);
 
-// for ( const key of keys){
-//     console.log(`ключ ${key} значення ${user[key]}`);
+for ( const key of keys){
+    console.log(`ключ ${key} значення ${user[key]}`);
     
-// }
+}
 
 
 //Напиши функцію countProps(obj), яка рахує кількість властивостей в об'єкті. Функція повертає число — кількість властивостей.
