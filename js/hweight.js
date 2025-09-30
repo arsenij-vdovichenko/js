@@ -1,10 +1,16 @@
 
 const friends = ['Mango', 'Poly', 'Kiwi', 'Ajax'];
-const string = friends.join(', ');
-console.log(string); 
 
+let string = '';
 
+for (let i = 0; i < friends.length; i++) {
+  string += friends[i];
+  if (i < friends.length - 1) {
+    string += ', ';
+  }
+}
 
+console.log(string);
 
 const cards = [
   'Карточка-1',
