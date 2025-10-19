@@ -234,13 +234,21 @@ const array = [1,2,3,4,45,6,7,88,9,]
 
 
 // Відсортувати масив об'єктів за алфавітом в полі name:
-const arr = [
-    { name: 'John', age: 32 },
-    { name: 'Jane', age: 26 },
-    { name: 'Mike', age: 42 },
-    { name: 'Emily', age: 29 }
-  ];
+// const arr = [
+//     { name: 'John', age: 32 },
+//     { name: 'Jane', age: 26 },
+//     { name: 'Mike', age: 42 },
+//     { name: 'Emily', age: 29 }
+//   ];
 
-  const copyArr = [...arr].sort((a,b)=> a.name.localeCompare(b.name))
-  console.log(copyArr);
-  
+//   const copyArr = [...arr].sort((a,b)=> a.name.localeCompare(b.name))
+//   console.log(copyArr);
+
+
+  const players = [
+  { id: "player-1", name: "Mango", timePlayed: 310, points: 54, online: false },
+  { id: "player-2", name: "Poly", timePlayed: 470, points: 92, online: true },
+  { id: "player-3", name: "Kiwi", timePlayed: 230, points: 48, online: true },
+  { id: "player-4", name: "Ajax", timePlayed: 150, points: 71, online: false },
+  { id: "player-5", name: "Chelsy", timePlayed: 150, points: 48, online: true },
+];
